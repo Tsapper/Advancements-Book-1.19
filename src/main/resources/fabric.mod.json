@@ -1,28 +1,28 @@
 {
   "schemaVersion": 1,
-  "id": "advancementseditor",
-  "version": "0.0.1",
+  "id": "advancementsbook",
+  "version": "0.7",
 
-  "name": "Advancements Editor",
-  "description": "A mod that simply lets you edit advancements.",
+  "name": "Advancements Book",
+  "description": "A mod that adds an advancements book.",
   "authors": [
     "Tsapper"
   ],
   "contact": {
-    "homepage": "https://curseforge.com/",
-    "sources": "https://github.com/Tsapper/advancements-editor-1.19.2"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/advancements-book",
+    "sources": "https://github.com/Tsapper/advancements-book-1.19"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/advancementsbook/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.tsapper.advancementseditor.AdvancementsEditor"
+      "net.tsapper.advancementsbook.AdvancementsBook"
     ],
     "client": [
-      "net.tsapper.advancementseditor.AdvancementsEditorClient"
+      "net.tsapper.advancementsbook.AdvancementsBookClient"
     ]
   },
   "mixins": [
