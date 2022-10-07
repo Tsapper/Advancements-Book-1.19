@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "advancementsbook",
-  "version": "0.7",
+  "version": "0.7.1",
 
   "name": "Advancements Book",
   "description": "A mod that adds an advancements book.",
